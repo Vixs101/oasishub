@@ -1,19 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      height: {
-        '1/6': '20%',
+      keyframes: {
+        pulseScale: {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.1)" },
+        },
       },
-      width: {
-        '1/6': "22%"
-      }
+      animation: {
+        pulseScale: "pulseScale 1.5s infinite",
+      },
     },
   },
   plugins: [],
-}
-
+};
