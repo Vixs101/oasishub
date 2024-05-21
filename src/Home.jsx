@@ -17,25 +17,42 @@ function Home() {
 
         <div className="fixed bottom-8 right-8">
           <button className="flex items-start justify-center bg-white rounded-full w-12 h-12 shadow-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-50 animate-pulseScale">
-            <img src="/icon1.png" alt="back to top" className=""/>
+            <img src="/icon1.png" alt="back to top" className="" />
           </button>
         </div>
       </section>
 
       {/* features section */}
-      <section>
-        <div>
-          <h2>Features</h2>
-          <p>Discover the amazing features of our Tech Hub</p>
+      <section className="appwidth flex flex-col my-10 gap-5">
+        <div className="flex flex-col gap-5 w-full text-center">
+          <h2 className="text-5xl font-extrabold">Features</h2>
+          <p className="text-gray-500">
+            Discover the amazing features of our Tech Hub
+          </p>
         </div>
 
-      {/* {features.map((feature, index) =>(
-        <div
-          key={index}
-        >
-
+        <div className="grid grid-cols-6 gap-4 w-full">
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              className={`bg-gray-100 rounded-lg p-2 ${
+                index === 3
+                  ? "col-span-3 ml-36 w-2/3"
+                  : index === 4
+                  ? "col-span-3 mr-28 w-2/3"
+                  : "col-span-2"
+              }`}
+            >
+              <h2 className="font-bold text-xl">{feature.title}</h2>
+              <p className="text-gray-600">{feature.content}</p>
+            </div>
+          ))}
         </div>
-      ))} */}
+      </section>
+
+      {/* images */}
+      <section className="appwidth ">
+
       </section>
     </>
   );

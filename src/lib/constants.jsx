@@ -28,4 +28,40 @@ const features = [
     },
 ];
 
-export {features};
+const pictures = [
+    {
+        picture: 'pic1'
+    },
+    {
+        picture: 'pic2'
+    },
+    {
+        picture: 'pic3'
+    },
+    {
+        picture: 'pic4'
+    },
+    {
+        picture: 'pic5'
+    },
+    {
+        picture: 'pic6'
+    },
+    {
+        picture: 'pic7'
+    },
+    {
+        picture: 'pic8'
+    },
+    {
+        picture: 'pic9'
+    },
+    {
+        picture: 'pic10'
+    },
+    {
+        picture: 'pic11'
+    },
+]
+
+export {features, pictures};
