@@ -30,36 +30,47 @@ const features = [
 
 const pictures = [
     {
+        id:1,
         picture: 'pic1'
     },
     {
+        id:2,
         picture: 'pic2'
     },
     {
+        id:3,
         picture: 'pic3'
     },
     {
+        id:4,
         picture: 'pic4'
     },
     {
+        id:5,
         picture: 'pic5'
     },
     {
+        id:6,
         picture: 'pic6'
     },
     {
+        id:7,
         picture: 'pic7'
     },
     {
+        id:8,
         picture: 'pic8'
     },
     {
+        id:9,
         picture: 'pic9'
     },
     {
+        id:10,
         picture: 'pic10'
     },
     {
+        id:11,
         picture: 'pic11'
     },
 ]

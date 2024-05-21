@@ -11,4 +11,6 @@ html, body {
   padding: 20px 70px;
 }
 
-
+.appWidth {
+  padding: 70px;
+}

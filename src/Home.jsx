@@ -1,6 +1,6 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
-import { features } from "./lib/constants";
+import { features, pictures } from "./lib/constants";
 
 function Home() {
   return (
@@ -51,8 +51,17 @@ function Home() {
       </section>
 
       {/* images */}
-      <section className="appwidth ">
-
+      <section className="appWidth pb-20 bg-[#023A7B] w-full h-screen flex flex-wrap gap-4 items-center justify-center">
+        {pictures.map((pic, index) => (
+          <div className="h-1/6 w-1/6">
+            <img
+              src={`/images/${pic.picture}.png`}
+              alt="A picture of the hub"
+              key={index}
+              className="w-full h-full"
+            />
+          </div>
+        ))}
       </section>
     </>
   );

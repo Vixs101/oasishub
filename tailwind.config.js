@@ -12,6 +12,12 @@ export default {
       animation: {
         pulseScale: "pulseScale 1.5s infinite",
       },
+      width: {
+        "1/6":"24%",
+      },
+      height: {
+        "1/6": "35%"
+      }
     },
   },
   plugins: [],
