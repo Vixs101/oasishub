@@ -75,4 +75,31 @@ const pictures = [
     },
 ]
 
-export {features, pictures};
+const membership = [
+    {
+        id:1,
+        member: "membership1",
+        title: "Individual Membership",
+        content:"Ideal for freelancers, entrepreneurs, and remote workers looking for a productive and collaborative environment."
+    },
+    {
+        id:2,
+        member: "membership2",
+        title: "Startup Membership",
+        content:"Designed for early-stage startups and small teams, providing access to resources, mentorship, and networking opportunities."
+    },
+    {
+        id:3,
+        member: "membership3",
+        title: "Corporate Membership",
+        content:"Tailored for established companies, offering dedicated office spaces, meeting rooms, and access to a supportive community."
+    },
+    {
+        id:4,
+        member: "membership4",
+        title: "Virtual Membership",
+        content: "Perfect for remote professionals who want to be part of our tech hub or workspace community, with access to virtual events and resources."
+    },
+]
+
+export {features, pictures, membership};

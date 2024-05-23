@@ -1,6 +1,6 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
-import { features, pictures } from "./lib/constants";
+import { features, membership, pictures } from "./lib/constants";
 
 function Home() {
   return (
@@ -24,7 +24,7 @@ function Home() {
 
       {/* features section */}
       <section className="appwidth flex flex-col my-10 gap-5">
-        <div className="flex flex-col gap-5 w-full text-center">
+        <div className="flex flex-col gap-2 w-full">
           <h2 className="text-5xl font-extrabold">Features</h2>
           <p className="text-gray-500">
             Discover the amazing features of our Tech Hub
@@ -62,6 +62,30 @@ function Home() {
             />
           </div>
         ))}
+      </section>
+
+      <section className="appWidth w-full h-screen bg-[#E7FDE2] ">
+        <div className="flex flex-col gap-2 w-5/13">
+          <h2 className="text-5xl font-extrabold">Membership Options</h2>
+          <p className="text-gray-500">
+            Choose The membership option that suits your needs and join our
+            vibrant tech hub or workspace
+          </p>
+        </div>
+
+        <div className="flex gap-2 py-10 h-5/7">
+          {membership.map((members, index) => (
+            <div key={index} className="flex flex-col gap-2 bg-white px-4 pb-12 rounded-2xl h-full">
+              <img
+                src={`/images/${members.member}.png`}
+                alt="A member of the hub"
+                className="h-2/3"
+              />
+              <h2>{members.title}</h2>
+              <p>{members.content}</p>
+            </div>
+          ))}
+        </div>
       </section>
     </>
   );

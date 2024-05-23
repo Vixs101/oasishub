@@ -13,10 +13,12 @@ export default {
         pulseScale: "pulseScale 1.5s infinite",
       },
       width: {
-        "1/6":"24%",
+        "1/6":"20%",
+        "5/13": "45%"
       },
       height: {
-        "1/6": "35%"
+        "1/6": "30%",
+        "5/7": "88%",
       }
     },
   },
