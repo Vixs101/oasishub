@@ -5,7 +5,11 @@ import { features, membership, pictures } from "./lib/constants";
 function Home() {
   return (
     <>
-      <section className="appwidth flex flex-col h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/heroImage.png')] w-full gap-44">
+      <section 
+      className="
+        appwidth flex flex-col h-screen bg-cover bg-no-repeat bg-center bg-[url('/images/heroImage.png')] w-full gap-44 
+        
+      ">
         <NavBar />
         <div className="flex flex-col justify-between text-white h-1/3 w-1/2">
           <h1 className="text-6xl font-extrabold ">Welcome to Oasis Hub</h1>
@@ -75,7 +79,7 @@ function Home() {
 
         <div className="flex gap-2 py-10 h-5/7">
           {membership.map((members, index) => (
-            <div key={index} className="flex flex-col gap-2 bg-white px-4 pb-12 rounded-2xl h-full">
+            <div key={index} className="flex flex-col gap-2 bg-white px-4 pt-4 pb-12 rounded-2xl h-full">
               <img
                 src={`/images/${members.member}.png`}
                 alt="A member of the hub"
