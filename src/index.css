@@ -14,3 +14,9 @@ html, body {
 .appWidth {
   padding: 70px;
 }
+
+@media (max-width: 768px) {
+  .appwidth{
+    padding: 1.25rem;
+  }
+}

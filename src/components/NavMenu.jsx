@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { links } from "../lib/constants";
-// import { Link } from "react-router-dom";
-
-
-
+import { Link } from "react-router-dom";
 
 function NavMenu() {
   const [open, setOpen] = useState(false);
@@ -30,7 +27,7 @@ function NavMenu() {
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
-            className="h-10 w-10 text-white md:hidden"
+            className="h-10 w-10 text-black mt-1 md:hidden z-30"
             onClick={() => setOpen(false)}
           >
             <path
@@ -42,21 +39,15 @@ function NavMenu() {
         )}
 
         {open && (
-          <div className="absolute flex flex-col gap-5 px-5 py-10 text-lg font-semibold right-0 mt-12 h-[calc(100vh-7rem)] w-[calc(100vw-5rem)] bg-white border-gray-300 border-2 text-black rounded-lg duration-500">
+          <div className="absolute flex flex-col gap-5 px-5 py-10 text-lg font-semibold right-0 h-[calc(100vh-7rem)] w-[calc(100vw-5rem)] bg-white border-gray-300 border-2 text-black rounded-lg duration-500">
             {links.map((link) => (
-              <Link
-                to={link.url}
-                key={link.id}
-                onClick={() => {
-                  setOpen(false);
-                }}
-              >
-                <div className="flex text-[#179BD7] hover:bg-gray-100 rounded-sm h-10 gap-2 items-center">
+              <>
+                <div className="flex text-green-600 hover:bg-gray-100 rounded-sm h-10 gap-2 items-center">
                   {link.icon}
                   {link.title}
                 </div>
                 <hr className="" />
-              </Link>
+              </>
             ))}
             <hr className=" bg-slate-950 mt-40" />
           </div>
