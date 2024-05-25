@@ -155,4 +155,27 @@ const links = [
   },
 ];
 
-export { features, pictures, membership, links };
+const events = [
+  {
+    id:"1",
+    title:"Lorem ipsum dolor sit amet",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae, expedita incidunt atque in sint ad, voluptates maiores commodi quasi facere illum corporis nulla rerum vel reiciendis tempora facilis. Eius."
+  },
+  {
+    id:"2",
+    title:"Lorem ipsum dolor sit amet",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae, expedita incidunt atque in sint ad, voluptates maiores commodi quasi facere illum corporis nulla rerum vel reiciendis tempora facilis. Eius."
+  },
+  {
+    id:"3",
+    title:"Lorem ipsum dolor sit amet",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae, expedita incidunt atque in sint ad, voluptates maiores commodi quasi facere illum corporis nulla rerum vel reiciendis tempora facilis. Eius."
+  },
+  {
+    id:"4",
+    title:"Lorem ipsum dolor sit amet",
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae, expedita incidunt atque in sint ad, voluptates maiores commodi quasi facere illum corporis nulla rerum vel reiciendis tempora facilis. Eius."
+  },
+]
+
+export { features, pictures, membership, links, events };

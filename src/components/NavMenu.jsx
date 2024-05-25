@@ -39,7 +39,7 @@ function NavMenu() {
         )}
 
         {open && (
-          <div className="absolute flex flex-col gap-5 px-5 py-10 text-lg font-semibold right-0 h-[calc(100vh-7rem)] w-[calc(100vw-5rem)] bg-white border-gray-300 border-2 text-black rounded-lg duration-500">
+          <div className="absolute flex flex-col gap-5 px-5 py-10 text-lg font-semibold right-0 h-[calc(100vh-7rem)] w-[calc(100vw-5rem)] bg-white border-gray-300 border-2 text-blac k rounded-lg duration-500">
             {links.map((link) => (
               <>
                 <div className="flex text-green-600 hover:bg-gray-100 rounded-sm h-10 gap-2 items-center">
