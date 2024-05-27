@@ -182,17 +182,21 @@ const testimonials = [
   {
     id:"1",
     testifier: "John Smith",
+    pic: "testifiers1",
     testimony: "I have been a member of this tech hub for over a year now and it has been an amazing experience. The workspace is modern and well-equipped, and the community is supportive and collaborative. I have made valuable connections and learned so much from the events and workshops organized here. Highly recommended!",
   },
   {
     id:"2",
     testifier: "Emily Johnson",
+    pic: "testifiers2",
     testimony: "Being a part of this tech hub has been a game-changer for me. The atmosphere is vibrant and inspiring, and the facilities are top-notch. The networking opportunities are endless, and I have been able to collaborate with talented individuals on various projects. It's a place where innovation thrives and ideas come to life.",
   },
   {
     id:"3",
     testifier: "Michael Davis",
+    pic: "testifiers3",
     testimony: " can't say enough good things about this tech hub. The workspace is designed to foster creativity and productivity, with comfortable seating, natural lighting, and state-of-the-art technology. The staff is friendly and always ready to assist. The events and workshops organized here are informative and engaging. It's the perfect place for anyone in the tech industry."
-  }
+  },
 ]
-export { features, pictures, membership, links, events };
+
+export { features, pictures, membership, links, events, testimonials };

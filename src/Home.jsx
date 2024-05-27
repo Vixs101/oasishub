@@ -1,6 +1,6 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
-import { features, membership, pictures } from "./lib/constants";
+import { features, membership, pictures, testimonials } from "./lib/constants";
 
 function Home() {
   return (
@@ -185,8 +185,8 @@ function Home() {
             Events and Workshops
           </h2>
           <p className="text-gray-500">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-            quaerat, sit dolorem cupiditate nostrum facilis consequatur.
+            Discover upcoming events, workshops, and networking opportunities
+            hosted by our tech hub.
           </p>
         </div>
 
@@ -195,6 +195,40 @@ function Home() {
             <div key={index}>
               <h2>{event.title}</h2>
               <p>{event.content}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* testimonial section */}
+      <section>
+        <div
+          className="
+            flex flex-col gap-2 md:w-5/13
+            w-full  
+            "
+        >
+          <h2
+            className="
+              text-3xl md:text-5xl font-extrabold
+          "
+          >
+            What People Are Saying
+          </h2>
+          <p className="text-gray-500">
+            Read what our members have to say about their experience at our tech
+            hub.
+          </p>
+        </div>
+
+        <div>
+          {testimonials.map((testimonies, index) => (
+            <div key={index}>
+              <img src={`/images/${testimonies.pic}.png`} alt="" />
+              <div>
+                <h2>{testimonies.testifier}</h2>
+                <p>{testimonies.testimony}</p>
+              </div>
             </div>
           ))}
         </div>
