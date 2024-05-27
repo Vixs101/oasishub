@@ -158,24 +158,41 @@ const links = [
 const events = [
   {
     id:"1",
-    title:"Lorem ipsum dolor sit amet",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae, expedita incidunt atque in sint ad, voluptates maiores commodi quasi facere illum corporis nulla rerum vel reiciendis tempora facilis. Eius."
+    title:"Tech Talks",
+    content: "Join industry experts as they share their insights and knowledge on the latest trends and technologies."
   },
   {
     id:"2",
-    title:"Lorem ipsum dolor sit amet",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae, expedita incidunt atque in sint ad, voluptates maiores commodi quasi facere illum corporis nulla rerum vel reiciendis tempora facilis. Eius."
+    title:"Hackathons",
+    content: "Participate in intense coding competitions and collaborate with fellow developers to build innovative solutions."
   },
   {
     id:"3",
-    title:"Lorem ipsum dolor sit amet",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae, expedita incidunt atque in sint ad, voluptates maiores commodi quasi facere illum corporis nulla rerum vel reiciendis tempora facilis. Eius."
+    title:"Networking Mixers",
+    content: "Connect with like-minded professionals, entrepreneurs, and investors in a casual and social setting."
   },
   {
     id:"4",
-    title:"Lorem ipsum dolor sit amet",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium quae, expedita incidunt atque in sint ad, voluptates maiores commodi quasi facere illum corporis nulla rerum vel reiciendis tempora facilis. Eius."
+    title:"Workshops",
+    content: "Learn new skills and gain practical knowledge through hands-on workshops conducted by industry experts."
   },
 ]
 
+const testimonials = [
+  {
+    id:"1",
+    testifier: "John Smith",
+    testimony: "I have been a member of this tech hub for over a year now and it has been an amazing experience. The workspace is modern and well-equipped, and the community is supportive and collaborative. I have made valuable connections and learned so much from the events and workshops organized here. Highly recommended!",
+  },
+  {
+    id:"2",
+    testifier: "Emily Johnson",
+    testimony: "Being a part of this tech hub has been a game-changer for me. The atmosphere is vibrant and inspiring, and the facilities are top-notch. The networking opportunities are endless, and I have been able to collaborate with talented individuals on various projects. It's a place where innovation thrives and ideas come to life.",
+  },
+  {
+    id:"3",
+    testifier: "Michael Davis",
+    testimony: " can't say enough good things about this tech hub. The workspace is designed to foster creativity and productivity, with comfortable seating, natural lighting, and state-of-the-art technology. The staff is friendly and always ready to assist. The events and workshops organized here are informative and engaging. It's the perfect place for anyone in the tech industry."
+  }
+]
 export { features, pictures, membership, links, events };
