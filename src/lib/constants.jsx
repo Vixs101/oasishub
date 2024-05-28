@@ -79,30 +79,30 @@ const membership = [
   {
     id: 1,
     member: "membership1",
-    title: "Individual Membership",
+    title: "Weekly",
     content:
-      "Ideal for freelancers, entrepreneurs, and remote workers looking for a productive and collaborative environment.",
+      "Get started with your hub membership and experience the benefits of access each week with convenient weekly payments.",
   },
   {
     id: 2,
     member: "membership2",
-    title: "Startup Membership",
+    title: "Monthly",
     content:
-      "Designed for early-stage startups and small teams, providing access to resources, mentorship, and networking opportunities.",
+      "Choose our monthly plan for a budget-friendly way to access the hub's features and benefits every month.",
   },
   {
     id: 3,
     member: "membership3",
-    title: "Corporate Membership",
+    title: "Semi-Annual",
     content:
-      "Tailored for established companies, offering dedicated office spaces, meeting rooms, and access to a supportive community.",
+      "Maximize your savings with our semi-annual payment plan, offering access to the hub for a full six months at a reduced rate.",
   },
   {
     id: 4,
     member: "membership4",
-    title: "Virtual Membership",
+    title: "Annual",
     content:
-      "Perfect for remote professionals who want to be part of our tech hub or workspace community, with access to virtual events and resources.",
+      "Gain uninterrupted access to the hub's features and benefits for a full year with our annual membership plan.",
   },
 ];
 
@@ -182,19 +182,19 @@ const testimonials = [
   {
     id:"1",
     testifier: "John Smith",
-    pic: "testifiers1",
+    pic: "testifiers3",
     testimony: "I have been a member of this tech hub for over a year now and it has been an amazing experience. The workspace is modern and well-equipped, and the community is supportive and collaborative. I have made valuable connections and learned so much from the events and workshops organized here. Highly recommended!",
   },
   {
     id:"2",
-    testifier: "Emily Johnson",
+    testifier: "Michael Davis",
     pic: "testifiers2",
     testimony: "Being a part of this tech hub has been a game-changer for me. The atmosphere is vibrant and inspiring, and the facilities are top-notch. The networking opportunities are endless, and I have been able to collaborate with talented individuals on various projects. It's a place where innovation thrives and ideas come to life.",
   },
   {
     id:"3",
-    testifier: "Michael Davis",
-    pic: "testifiers3",
+    testifier: "Emily Johnson",
+    pic: "testifiers1",
     testimony: " can't say enough good things about this tech hub. The workspace is designed to foster creativity and productivity, with comfortable seating, natural lighting, and state-of-the-art technology. The staff is friendly and always ready to assist. The events and workshops organized here are informative and engaging. It's the perfect place for anyone in the tech industry."
   },
 ]
