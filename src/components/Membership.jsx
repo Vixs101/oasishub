@@ -30,15 +30,14 @@ function Membership() {
       <div
         className="
         flex md:flex-row md:gap-2 py-10 h-5/8
-        flex-col gap-4
+        flex-col gap-4 items-center md:items-start
       "
       >
         {membership.map((members, index) => (
           <div
             key={index}
             className="
-            flex flex-col gap-4 bg-white hover:bg-green-600 hover:text-white px-4 pt-4 pb-12 rounded-2xl h-full
-            
+            flex flex-col gap-4 bg-white hover:bg-green-600 hover:text-white px-4 pt-4 pb-12 rounded-2xl h-full md:w-auto
           "
           >
             <img

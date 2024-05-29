@@ -23,7 +23,7 @@ function Testimonials() {
         </p>
       </div>
 
-      <div className="flex gap-5 mt-8 ">
+      <div className="flex md:flex-row flex-col gap-5 mt-8 ">
         {testimonials.map((testimonies, index) => (
           <div key={index} className="flex  gap-5 bg-white p-4 text-justify rounded-lg">
 

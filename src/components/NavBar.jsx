@@ -14,7 +14,7 @@ function NavBar() {
         </div>
         <NavMenu />
 
-        <ul className="hidden md:flex w-2/5 justify-between font-semibold text-lg cursor-pointer items-center gap-2">
+        <ul className="hidden md:flex w-2/5 md:w-2/5 justify-between font-semibold text-lg cursor-pointer items-center gap-2">
           <li className="hover:border-b-4 hover:border-green-600">About Us</li>
           <li className="hover:border-b-4 hover:border-green-600">
             Membership Subscription

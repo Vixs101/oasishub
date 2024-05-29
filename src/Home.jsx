@@ -4,6 +4,7 @@ import Images from "./components/Images";
 import Membership from "./components/Membership";
 import Events from "./components/Events";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
       >
         <NavBar />
         <div
-          className="flex flex-col md:justify-between text-white md:h-1/3 md:w-1/2
+          className="flex flex-col md:justify-between md:gap-0 text-white md:h-1/3 md:w-1/2
           w-full h-2/4 gap-8
         "
         >
@@ -44,6 +45,8 @@ function Home() {
       <Membership/>
       <Events/>
       <Testimonials/>
+      <div className="w-full h-20 bg-white"></div>
+      <Footer/>
     </>
   );
 }
