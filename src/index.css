@@ -15,11 +15,14 @@ html, body {
   padding: 70px;
 }
 
+
 @media (max-width: 768px) {
   .appwidth{
-    padding: 1.25rem;
+    padding: 2rem;
   }
   .appWidth {
-    padding: 1.25rem;
+    padding: 2rem;
+   
   }
+  
 }

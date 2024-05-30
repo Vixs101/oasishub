@@ -5,20 +5,27 @@ function Images() {
   return (
     <section
       className="
-            appWidth md:pb-20 bg-[#023A7B] w-full h-screen md:flex md:flex-wrap md:gap-4 md:items-center md:justify-center
+            appWidth md:pb-20 bg-[#023A7B] w-full md:h-screen md:flex md:flex-wrap md:gap-4 md:items-center md:justify-center
             grid grid-cols-2 gap-3 pb-32
             "
     >
-      {pictures.map((pic, index) => (
-        <div key={index} className="md:h-1/6 md:w-1/6">
-          <img
-            src={`/images/${pic.picture}.png`}
-            alt="A picture of the hub"
+      {pictures.map((pic, index) => {
+        return (
+          <div
             key={index}
-            className="w-full h-full"
-          />
-        </div>
-      ))}
+            className={`md:h-1/6 md:w-1/6 ${
+              index == 10 ? "col-span-2" : "col-span-1"
+            }`}
+          >
+            <img
+              src={`/images/${pic.picture}.png`}
+              alt="A picture of the hub"
+              key={index}
+              className="w-full h-full"
+            />
+          </div>
+        );
+      })}""
     </section>
   );
 }
