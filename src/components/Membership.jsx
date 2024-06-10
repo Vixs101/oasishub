@@ -5,7 +5,7 @@ function Membership() {
   return (
     <section
       className="
-      appWidth w-full md:h-screen bg-[#e7fde2] 
+      appWidth w-full lg:h-screen bg-[#e7fde2] 
     "
     >
       <div
@@ -29,7 +29,7 @@ function Membership() {
 
       <div
         className="
-        flex md:flex-row md:gap-2 py-10 h-5/8
+        flex md:flex-row md:gap-5 lg:gap-2 py-10 h-5/8
         flex-col gap-4 items-center md:items-start
       "
       >
@@ -53,7 +53,7 @@ function Membership() {
               >
                 {members.title}
               </h2>
-              <p>{members.content}</p>
+              <p className="md:text-sm lg:text-base">{members.content}</p>
             </div>
           </div>
         ))}

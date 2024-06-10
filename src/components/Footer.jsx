@@ -2,15 +2,15 @@ import React from "react";
 
 function Footer() {
   return (
-    <section className="flex flex-col md:flex-row justify-between appWidth w-full bg-[url('/images/footerImage.png')] bg-no-repeat bg-center bg-cover gap-10 md:gap-0 pb">
+    <section className="flex flex-col md:flex-row  appWidth w-full bg-[url('/images/footerImage.png')] bg-no-repeat bg-center bg-cover gap-10 md:gap-0 pb">
       <div className="flex flex-col gap-10 md:gap-16 md:w-1/2 mt-10 md:mt-0">
         <img
           src="/images/footerLogo.png"
           alt="Company's Logo"
-          className="h-16 w-2/4 md:h-20 md:w-2/6 self-centerz"
+          className="h-16 w-2/4 md:h-20 md:w-2/6 "
         />
         <div className="flex flex-col gap-3 md:gap-5 text-white">
-          <h1 className=" col-span-2 text-2xl md:text-6xl  font-extrabold text-white">
+          <h1 className=" col-span-2 text-2xl md:text-5xl  font-extrabold text-white">
             Contact Us
           </h1>
           <div>
@@ -31,11 +31,11 @@ function Footer() {
       {/* form */}
       <form
         action=""
-        className="flex flex-col gap-5 bg-gray-100 h-1/2 md:h-full md:w-2/5 p-5 md:p-10 rounded-xl"
+        className="flex flex-col gap-5 bg-gray-100 h-1/2 md:h-full md:w-2/4 w-full p-5 md:p-10 rounded-xl"
       >
         <h1 className="text-3xl font-extrabold">Get In Touch</h1>
-        <div className="flex flex-col md:flex-row gap-5 md:gap-2">
-          <div className="flex flex-col gap-1">
+        <div className="flex flex-row flex-wrap gap-5 md:gap-2 w-full">
+          <div className="flex flex-col gap-1 w-full">
             <label htmlFor="name" className="font-semibold">
               Name
             </label>
@@ -47,7 +47,7 @@ function Footer() {
               required
             />
           </div>
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 w-full">
             <label htmlFor="surname" className="font-semibold">
               Surname
             </label>

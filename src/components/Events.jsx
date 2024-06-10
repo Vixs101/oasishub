@@ -23,7 +23,10 @@ function Events() {
         </p>
       </div>
 
-      <div className="flex md:flex-row flex-col  gap-3 py-10 ">
+      <div
+      //  className="flex md:flex-row flex-col  gap-3 py-10 "
+      className="grid grid-cols-md:grid-cols-2 lg:grid-cols-4 gap-2"
+       >
         {events.map((event, index) => (
           <div key={index} className="bg-gray-100 p-2 rounded-lg ">
             <h2 className="font-bold text-lg md:text-xl">{event.title}</h2>
