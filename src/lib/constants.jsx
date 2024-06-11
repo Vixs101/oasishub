@@ -110,7 +110,7 @@ const links = [
   {
     id: 1,
     title: "About Us",
-    url: "#",
+    url: "#features",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -124,32 +124,55 @@ const links = [
     ),
   },
   {
-    id: 2,
-    title: "Membership Subscription",
-    url: "#",
+    id: 1,
+    title: "Events",
+    url: "#events",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-6 h-6"
+        className="size-6"
       >
-        <path d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533ZM12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z" />
+        <path
+          fillRule="evenodd"
+          d="M1.5 6.375c0-1.036.84-1.875 1.875-1.875h17.25c1.035 0 1.875.84 1.875 1.875v3.026a.75.75 0 0 1-.375.65 2.249 2.249 0 0 0 0 3.898.75.75 0 0 1 .375.65v3.026c0 1.035-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 0 1 1.5 17.625v-3.026a.75.75 0 0 1 .374-.65 2.249 2.249 0 0 0 0-3.898.75.75 0 0 1-.374-.65V6.375Zm15-1.125a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-1.5 0V6a.75.75 0 0 1 .75-.75Zm.75 4.5a.75.75 0 0 0-1.5 0v.75a.75.75 0 0 0 1.5 0v-.75Zm-.75 3a.75.75 0 0 1 .75.75v.75a.75.75 0 0 1-1.5 0v-.75a.75.75 0 0 1 .75-.75Zm.75 4.5a.75.75 0 0 0-1.5 0V18a.75.75 0 0 0 1.5 0v-.75ZM6 12a.75.75 0 0 1 .75-.75H12a.75.75 0 0 1 0 1.5H6.75A.75.75 0 0 1 6 12Zm.75 2.25a.75.75 0 0 0 0 1.5h3a.75.75 0 0 0 0-1.5h-3Z"
+          clipRule="evenodd"
+        />
+      </svg>
+    ),
+  },
+  {
+    id: 2,
+    title: "Subscription",
+    url: "#subscription",
+    icon: (
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        className="size-6"
+      >
+        <path d="M5.25 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM2.25 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM18.75 7.5a.75.75 0 0 0-1.5 0v2.25H15a.75.75 0 0 0 0 1.5h2.25v2.25a.75.75 0 0 0 1.5 0v-2.25H21a.75.75 0 0 0 0-1.5h-2.25V7.5Z" />
       </svg>
     ),
   },
   {
     id: 3,
     title: "Contact Us",
-    url: "#",
+    url: "#contactUs",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
         fill="currentColor"
-        className="w-6 h-6"
+        className="size-6"
       >
-        <path d="M11.25 4.533A9.707 9.707 0 0 0 6 3a9.735 9.735 0 0 0-3.25.555.75.75 0 0 0-.5.707v14.25a.75.75 0 0 0 1 .707A8.237 8.237 0 0 1 6 18.75c1.995 0 3.823.707 5.25 1.886V4.533ZM12.75 20.636A8.214 8.214 0 0 1 18 18.75c.966 0 1.89.166 2.75.47a.75.75 0 0 0 1-.708V4.262a.75.75 0 0 0-.5-.707A9.735 9.735 0 0 0 18 3a9.707 9.707 0 0 0-5.25 1.533v16.103Z" />
+        <path
+          fillRule="evenodd"
+          d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z"
+          clipRule="evenodd"
+        />
       </svg>
     ),
   },
@@ -157,46 +180,53 @@ const links = [
 
 const events = [
   {
-    id:"1",
-    title:"Tech Talks",
-    content: "Join industry experts as they share their insights and knowledge on the latest trends and technologies."
+    id: "1",
+    title: "Tech Talks",
+    content:
+      "Join industry experts as they share their insights and knowledge on the latest trends and technologies.",
   },
   {
-    id:"2",
-    title:"Hackathons",
-    content: "Participate in intense coding competitions and collaborate with fellow developers to build innovative solutions."
+    id: "2",
+    title: "Hackathons",
+    content:
+      "Participate in intense coding competitions and collaborate with fellow developers to build innovative solutions.",
   },
   {
-    id:"3",
-    title:"Networking Mixers",
-    content: "Connect with like-minded professionals, entrepreneurs, and investors in a casual and social setting."
+    id: "3",
+    title: "Networking Mixers",
+    content:
+      "Connect with like-minded professionals, entrepreneurs, and investors in a casual and social setting.",
   },
   {
-    id:"4",
-    title:"Workshops",
-    content: "Learn new skills and gain practical knowledge through hands-on workshops conducted by industry experts."
+    id: "4",
+    title: "Workshops",
+    content:
+      "Learn new skills and gain practical knowledge through hands-on workshops conducted by industry experts.",
   },
-]
+];
 
 const testimonials = [
   {
-    id:"1",
+    id: "1",
     testifier: "John Smith",
     pic: "testifiers3",
-    testimony: "I have been a member of this tech hub for over a year now and it has been an amazing experience. The workspace is modern and well-equipped, and the community is supportive and collaborative. I have made valuable connections and learned so much from the events and workshops organized here. Highly recommended!",
+    testimony:
+      "I have been a member of this tech hub for over a year now and it has been an amazing experience. The workspace is modern and well-equipped, and the community is supportive and collaborative. I have made valuable connections and learned so much from the events and workshops organized here. Highly recommended!",
   },
   {
-    id:"2",
+    id: "2",
     testifier: "Michael Davis",
     pic: "testifiers2",
-    testimony: "Being a part of this tech hub has been a game-changer for me. The atmosphere is vibrant and inspiring, and the facilities are top-notch. The networking opportunities are endless, and I have been able to collaborate with talented individuals on various projects. It's a place where innovation thrives and ideas come to life.",
+    testimony:
+      "Being a part of this tech hub has been a game-changer for me. The atmosphere is vibrant and inspiring, and the facilities are top-notch. The networking opportunities are endless, and I have been able to collaborate with talented individuals on various projects. It's a place where innovation thrives and ideas come to life.",
   },
   {
-    id:"3",
+    id: "3",
     testifier: "Emily Johnson",
     pic: "testifiers1",
-    testimony: " can't say enough good things about this tech hub. The workspace is designed to foster creativity and productivity, with comfortable seating, natural lighting, and state-of-the-art technology. The staff is friendly and always ready to assist. The events and workshops organized here are informative and engaging. It's the perfect place for anyone in the tech industry."
+    testimony:
+      " can't say enough good things about this tech hub. The workspace is designed to foster creativity and productivity, with comfortable seating, natural lighting, and state-of-the-art technology. The staff is friendly and always ready to assist. The events and workshops organized here are informative and engaging. It's the perfect place for anyone in the tech industry.",
   },
-]
+];
 
 export { features, pictures, membership, links, events, testimonials };

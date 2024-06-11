@@ -3,7 +3,7 @@ import { events } from "../lib/constants";
 
 function Events() {
   return (
-    <section className="appWidth w-full">
+    <section className="appWidth w-full" id="events">
       <div
         className="
         flex flex-col gap-2 md:w-5/13

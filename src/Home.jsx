@@ -7,6 +7,10 @@ import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
 
 function Home() {
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <>
       <section
@@ -34,19 +38,19 @@ function Home() {
           </button>
         </div>
 
-        <div className="fixed bottom-8 right-8">
+        <div className="fixed bottom-8 right-8" onClick={handleClick}>
           <button className="flex items-start justify-center bg-white rounded-full w-12 h-12 shadow-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-50 animate-pulseScale">
             <img src="/icon1.png" alt="back to top" className="" />
           </button>
         </div>
       </section>
-      <Features/>
-      <Images/>
-      <Membership/>
-      <Events/>
-      <Testimonials/>
+      <Features />
+      <Images />
+      <Membership />
+      <Events />
+      <Testimonials />
       <div className="w-full h-20 bg-white"></div>
-      <Footer/>
+      <Footer />
     </>
   );
 }

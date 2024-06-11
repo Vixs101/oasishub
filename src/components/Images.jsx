@@ -8,7 +8,8 @@ function Images() {
       //       appWidth md:pb-20 bg-[#023A7B] w-full md:h-screen md:flex md:flex-wrap md:gap-4 md:items-center md:justify-center
       //       grid grid-cols-2 gap-3 pb-32
       //       "
-      className="appWidth md:pb-20 bg-[#023A7B] w-full      md:grid-cols-3 lg:gap-4
+      className="appWidth md:pb-20 bg-[#023A7B] w-full
+      md:grid-cols-6 lg:gap-4
       grid grid-cols-2 gap-3 pb-32"
     >
       {pictures.map((pic, index) => {
@@ -16,7 +17,11 @@ function Images() {
           <div
             key={index}
             className={`lg:h-full lg:w-full  ${
-              index == 10 ? "col-span-2" : "col-span-1"
+              index == 9
+                ? "col-span-3"
+                : index == 10
+                ? "col-span-3"
+                : "col-span-2"
             }`}
           >
             <img

@@ -2,7 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <section className="flex flex-col md:flex-row  appWidth w-full bg-[url('/images/footerImage.png')] bg-no-repeat bg-center bg-cover gap-10 md:gap-0 pb">
+    <section
+      className="flex flex-col md:flex-row  appWidth w-full bg-[url('/images/footerImage.png')] bg-no-repeat bg-center bg-cover gap-10 md:gap-0 pb"
+      id="contactUs"
+    >
       <div className="flex flex-col gap-10 md:gap-16 md:w-1/2 mt-10 md:mt-0">
         <img
           src="/images/footerLogo.png"
@@ -34,7 +37,7 @@ function Footer() {
         className="flex flex-col gap-5 bg-gray-100 h-1/2 md:h-full md:w-2/4 w-full p-5 md:p-10 rounded-xl"
       >
         <h1 className="text-3xl font-extrabold">Get In Touch</h1>
-        <div className="flex flex-row flex-wrap gap-5 md:gap-2 w-full">
+        <div className="flex flex-row flex-wrap lg:flex-nowrap gap-5 md:gap-2 w-full">
           <div className="flex flex-col gap-1 w-full">
             <label htmlFor="name" className="font-semibold">
               Name

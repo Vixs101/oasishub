@@ -5,6 +5,8 @@
 html, body {
   height: 100%;
   width: 100%;
+  scroll-behavior: smooth;
+
 }
 
 .appwidth {
@@ -15,6 +17,13 @@ html, body {
   padding: 70px;
 }
 
+.span-first {
+  grid-column: span 1.5 / span 1.5; /* Takes up 1.5 columns */
+}
+
+.span-second {
+  grid-column: span 1.5 / span 1.5; /* Takes up 1.5 columns */
+}
 
 @media (max-width: 768px) {
   .appwidth{

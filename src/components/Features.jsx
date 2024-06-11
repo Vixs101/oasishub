@@ -8,6 +8,7 @@ function Features() {
      appwidth flex flex-col md:my-10 gap-5
      p-5 my-3
      "
+     id="features"
     >
       <div className="flex flex-col gap-2 w-full">
         <h2
