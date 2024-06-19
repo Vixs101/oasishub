@@ -25,8 +25,8 @@ function Features() {
 
       <div
         className="
-         grid md:grid-cols-6 gap-4 w-full
-         grid-cols-1
+         grid md:grid-cols-6 gap-3
+         grid-cols-1 w:full
          "
       >
         {features.map((feature, index) => (
@@ -34,9 +34,9 @@ function Features() {
             key={index}
             className={`bg-gray-100 rounded-lg p-2 ${
               index === 3
-                ? "md:col-span-3 md:ml-36 md:mr-2 md:w-2/3"
+                ? "md:col-span-3 md:ml-36 md:mr-2 md:w-3/4"
                 : index === 4
-                ? "md:col-span-3 md:mr-28 md:ml-2 md:w-2/3"
+                ? "md:col-span-3 md:mr-28 md:ml-2 md:w-3/4"
                 : "md:col-span-2"
             }`}
           >

@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <>
       <nav className="flex justify-between text-white items-center w-full">
-        <div className="md:w-1/4 lg:w-1/5">
+        <div className="">
           <img
             src="/images/logo.png"
             alt="Hub's Logo"
@@ -14,7 +14,7 @@ function NavBar() {
         </div>
         <NavMenu />
 
-        <ul className="hidden md:flex  md:w-5/7 lg:w-3/5 justify-between font-semibold md:text-base lg:text-lg cursor-pointer items-center gap-2">
+        <ul className="hidden md:flex  md:w-5/7 lg:w-3/6 justify-between font-medium md:text-base lg:text-lg cursor-pointer items-center gap-2">
           <li className="hover:border-b-4 hover:border-green-600">
             <a href="#features">About Us</a>
           </li>

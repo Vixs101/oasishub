@@ -21,7 +21,7 @@ function Home() {
       >
         <NavBar />
         <div
-          className="flex flex-col md:justify-between md:gap-0 text-white lg:h-1/ md:h-2/5 md:w-3/5 
+          className="flex flex-col md:justify-between md:gap-0 text-white md:h-1/3 md:w-3/5 
           w-full h-2/4 gap-8
         "
         >
@@ -30,7 +30,7 @@ function Home() {
           </h1>
           <p className="text-lg">Where Innovation meets Collaboration</p>
           <button
-            className="flex rounded-lg text-black bg-white hover:bg-green-600 justify-center items-center border border-gray-50 lg:w-1/3 md:w-1/2 md:h-1/4 font-semibold
+            className="flex rounded-lg text-black bg-white hover:bg-green-600 justify-center items-center border border-gray-50 lg:w-1/4 md:w-1/2 md:h-1/5 font-semibold
             w-2/3 h-1/7
           "
           >
