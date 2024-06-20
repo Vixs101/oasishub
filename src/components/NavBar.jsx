@@ -9,7 +9,7 @@ function NavBar() {
           <img
             src="/images/logo.png"
             alt="Hub's Logo"
-            className="md:h-16 md:w-full h-full w-28 cursor-pointer"
+            className="md:h-16 md:w-auto h-full w-28 cursor-pointer"
           />
         </div>
         <NavMenu />
